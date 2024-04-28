@@ -1,0 +1,160 @@
+body {
+  background-color: #5D9C8C;
+  background-image: linear-gradient(to bottom right, #5D9C8C, #FFFFFF);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 28px;
+  color: #333;
+}
+
+.product-list table {
+  border-collapse: collapse;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 1px solid #000;
+}
+
+.product-list th, .product-list td {
+  border: 1px solid #000;
+  padding: 10px;
+  text-align: center;
+}
+
+.product-list th {
+  background-color: #f2f2f2;
+}
+
+.product-list img {
+  max-width: 50px;
+  height: auto;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+tr:first-child {
+  background-color: #FFD700;
+}
+
+.product {
+  background-color: #FFD700;
+}
+
+.product-table th {
+  background-color: #48413F;
+  color: snow;
+}
+
+.product-table td {
+  background-color: #CCE6E3;
+  color: black;
+}
+
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.pagination-link {
+  padding: 7px 16px;
+  margin: 0 2px;
+  text-decoration: none;
+  color: #333;
+  font-size: 22px;
+  transition: background-color 0.3s;
+  border-radius: 26px;
+}
+
+.pagination-link:hover {
+  color: #fff;
+}
+
+.pagination-link.active {
+  background-color: #5D9C8C;
+  color: #fff;
+  padding: 7px 16px;
+  border-radius: 26px;
+  margin: 0 2px;
+}
+
+.hidden-button {
+  visibility: hidden;
+}
+
+.visible-button {
+  visibility: visible;
+}
+
+.pagination-ellipsis {
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+  border-radius: 3px;
+  margin: 0 2px;
+  padding: 8px 0;
+  color: #333;
+  font-size: 22px;
+}
+
+.pagination-ellipsis.hide {
+  visibility: hidden;
+}
+
+.table-container {
+  text-align: center;
+}
+
+.hidden-ellipsis {
+  visibility: hidden;
+}
+
+form {
+  margin-left: 60px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border-radius: 25px;
+}
+
+p.go-home {
+  text-align: center;
+  margin-top: 11px;
+}
+
+p.go-home a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+p.go-home a:hover {
+  color: #ffffff;
+}
